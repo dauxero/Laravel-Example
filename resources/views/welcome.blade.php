@@ -1,4 +1,7 @@
 <x-layout>
-    <h1>Hola page de home</h1>
+    <!-- para crear una seccion es a traves de esta forma x-slot:NombreVariable -->
+    <x-slot:heading>
+        Home
+    </x-slot:heading>
 </x-layout>
 <!-- para traer un componente est <x-nombreDelComponente -->
